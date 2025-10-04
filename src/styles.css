@@ -53,3 +53,16 @@ h3 {
   background-color: var(--secondary-color);
   border-radius: 6px;
 }
+.about-page-body {
+  background-color: var(--secondary-color);
+  margin: 25px;
+}
+.about-section-container {
+  border: 5px solid;
+  border-radius: 6px;
+  padding: 75px 20px 90px 50px;
+}
+.about-section-container h3 {
+  color: #828282;
+  font-size: 17px;
+}
