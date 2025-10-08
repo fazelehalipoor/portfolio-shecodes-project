@@ -63,10 +63,12 @@ h3 {
   border-radius: 6px;
   padding: 75px 30px 90px 30px;
 }
-.content-container h1,
-.about-content-container h1 {
+.content-container h1 {
   font-size: 40px;
   margin-bottom: 85px;
+}
+.about-content-container h1 {
+  font-size: 40px;
 }
 .about-content-container {
   margin-left: 84px;
@@ -137,3 +139,10 @@ footer .homepage-social-links a:hover {
   color: var(--default-color);
   background: var(--branding-color);
 }
+
+/* 
+   change page presence to my desire look 
+   add real contact
+   add all related link address
+   add media quiery/ phone friendly
+   add seo
