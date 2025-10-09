@@ -172,3 +172,63 @@ footer .homepage-social-links a:hover {
   color: var(--default-color);
   background: var(--branding-color);
 }
+
+@media (max-width: 624px) {
+  .project-intro-picture:hover {
+    transform: scale(1.04);
+  }
+  .about-content-container {
+    margin: 0;
+  }
+  .about-content {
+    max-width: 100%;
+  }
+  .about-content-container h1,
+  .content-container h1 {
+    font-size: 23px;
+    line-height: 1.5;
+  }
+  .content-container{
+    margin:60px ;
+  }
+    .content-container a{
+    padding: 15px 20px;
+  }
+  .skillLoop {
+    overflow: auto;
+    white-space: nowrap;
+    margin: auto;
+  }
+  .skillLoop img {
+    width: 15.33333333%;
+    height: 90px;
+    margin: 10px;
+    border-radius: 6px;
+  }
+  footer .email-link,
+  footer .homepage-email-link {
+    font-size: 19px;
+  }
+}
+@media (max-width: 900px) {
+  .imageLoop {
+    overflow: auto;
+    white-space: nowrap;
+    margin: 35px;
+    border-radius: 3px;
+  }
+  .imageLoop img {
+    width: 400px;
+    height: 300px;
+    margin-right: 22px;
+    border-radius: 6px;
+  }
+  .content-container {
+    border: none;
+  }
+  .work-contant {
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+  }
+}
