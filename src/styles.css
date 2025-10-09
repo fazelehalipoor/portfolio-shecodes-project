@@ -57,6 +57,12 @@ h3 {
   background-color: var(--default-color);
   border-radius: 6px;
 }
+.project-intro-picture {
+  transition: all 150ms ease-in-out;
+}
+.project-intro-picture:hover {
+  transform: scale(1.2);
+}
 .content-container,
 .about-content-container {
   border: 5px solid;
